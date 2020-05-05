@@ -1,0 +1,28 @@
+{
+  "employee": [
+    {
+      "name": "Mohameddd",
+      "phone": "01234567893",
+      "email": "eman@gmail.com",
+      "password": "aA@12345",
+      "image": "",
+      "id": 3
+    },
+    {
+      "name": "norhan ahmed",
+      "phone": "01234567893",
+      "email": "eman@gmail.com",
+      "password": "aA@12345",
+      "image": "delivery info – 1.png",
+      "id": 16
+    },
+    {
+      "name": "ahmed",
+      "phone": "01234567893",
+      "email": "eman@gmail.com",
+      "password": "aA@12345",
+      "image": "confirmation2.png",
+      "id": 18
+    }
+  ]
+}

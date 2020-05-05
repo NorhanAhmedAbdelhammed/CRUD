@@ -1,0 +1,23 @@
+<section>
+    <table mdbTable>
+        <thead class="grey lighten-1 black-text">
+          <tr>
+            <th *ngFor="let head of headElements" scope="col"><h5>{{head}}</h5> </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr mdbTableCol *ngFor="let employee of listOfEmployees">
+            <th scope="row">{{employee.id}}</th>
+            <td>{{employee.name}}</td>
+            <td>{{employee.email}}</td>
+            <td>{{employee.phone}}</td>
+            <td>
+              <mdb-icon (click)="deleteEmployee(employee.id)" fas icon="times-circle" style="color: red;font-size: 15px;"></mdb-icon> 
+              <a routerLink="/update/{{employee.id}}">
+                <mdb-icon  fas icon="edit" style="color: #00bcd4;font-size: 15px;" class="mx-3" ></mdb-icon> 
+              </a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+</section>

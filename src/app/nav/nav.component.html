@@ -1,0 +1,28 @@
+<!--Navbar-->
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-dark cyan" [containerInside]="false">
+
+    <section class="container">
+         <!-- Navbar brand -->
+    <mdb-navbar-brand><a class="navbar-brand" href="#">Employee Project</a></mdb-navbar-brand>
+  
+    <!-- Collapsible content -->
+    <links>
+  
+      <!-- Links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link waves-light" routerLink="add"  mdbWavesEffect><mdb-icon fas icon="user-plus"></mdb-icon>Add Employee<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link waves-light" routerLink="listOfEmployee" mdbWavesEffect><mdb-icon fas icon="users"></mdb-icon>List of Employee</a>
+        </li>
+  
+      </ul>
+      <!-- Links -->
+    </links>
+    <!-- Collapsible content -->
+  
+    </section>
+   
+  </mdb-navbar>
+  <!--/.Navbar-->
